@@ -42,6 +42,7 @@ export default function Generate() {
         setFlashcards(data);
         setIsFetching(false);
       });
+      setText("");
   };
 
   const handleCardClick = (id) => {
